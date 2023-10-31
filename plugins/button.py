@@ -92,8 +92,10 @@ def fsub_button(client, message):
         buttons = [
             [
                 InlineKeyboardButton(text="Kanalga Qoshilish", url=client.invitelink),
-                InlineKeyboardButton(text="Kanalga Qoshilish 2", url=client.invitelink2),
             ],
+            [   
+                InlineKeyboardButton(text="Kanalga Qoshilish 2", url=client.invitelink2)
+            ]
         ]
         try:
             buttons.append(
