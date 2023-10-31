@@ -10,29 +10,29 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Bot Haqida", callback_data="help"),
-                InlineKeyboardButton(text="Yopish", callback_data="close"),
+                InlineKeyboardButton(text="📝 Bot Haqida", callback_data="help"),
+                InlineKeyboardButton(text="🔒 Yopish", callback_data="close"),
             ],
         ]
         return buttons
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="nmadur", url=client.invitelink2),
+                InlineKeyboardButton(text="Kanal 2", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="Bor Haqida", callback_data="help"),
-                InlineKeyboardButton(text="Yopish", callback_data="close"),
+                InlineKeyboardButton(text="📝 Bot Haqida", callback_data="help"),
+                InlineKeyboardButton(text="🔒 Yopish", callback_data="close"),
             ],
         ]
         return buttons
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="brbalo", url=client.invitelink),
+                InlineKeyboardButton(text="Kanal 1", url=client.invitelink),
             ],
             [
-                InlineKeyboardButton(text="Bit Haqida", callback_data="help"),
+                InlineKeyboardButton(text="Bot Haqida", callback_data="help"),
                 InlineKeyboardButton(text="Yopish", callback_data="close"),
             ],
         ]
@@ -40,8 +40,8 @@ def start_button(client):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Bot Haqida", callback_data="help"),
-                InlineKeyboardButton(text="Yopish", callback_data="close"),
+                InlineKeyboardButton(text="📝 Bot Haqida", callback_data="help"),
+                InlineKeyboardButton(text="🔒 Yopish", callback_data="close"),
             ],
         ]
         return buttons
@@ -51,7 +51,7 @@ def fsub_button(client, message):
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="qowil", url=client.invitelink2),
+                InlineKeyboardButton(text="Kanal 2", url=client.invitelink2),
             ],
         ]
         try:
@@ -69,7 +69,7 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="qituvvv", url=client.invitelink),
+                InlineKeyboardButton(text="Kanal 1", url=client.invitelink),
             ],
         ]
         try:
@@ -87,17 +87,17 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Kanalga Qoshilish", url=client.invitelink),
+                InlineKeyboardButton(text="Animelar - Uzbek Tilida", url=client.invitelink),
             ],
             [   
-                InlineKeyboardButton(text="Kanalga Qoshilish 2", url=client.invitelink2)
+                InlineKeyboardButton(text="Qora Klever - Uzbek Tilida", url=client.invitelink2)
             ]
         ]
         try:
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="✅ QОSНILDIМ",
+                        text="✅ Tekshirish",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
