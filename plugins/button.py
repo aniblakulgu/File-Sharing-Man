@@ -91,12 +91,12 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Kanalga Qoshilish", url=client.invitelink),
-                InlineKeyboardButton(text="Kanalga Qoshilish 2", url=client.invitelink2),
+                InlineKeyboardButton(text="Kanalga Qoshilish", url=client.invitelink))
+                InlineKeyboardButton(text="Kanalga Qoshilish 2", url=client.invitelink2)
             ],
         ]
         try:
-            buttons.insert(
+            buttons.append(
                 [
                     InlineKeyboardButton(
                         text="✅ QОSНILDIМ",
