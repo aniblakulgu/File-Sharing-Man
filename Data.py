@@ -33,11 +33,11 @@ class Data:
     ]
 
     ABOUT = """
-<b>@{} Bot orqali kanaldagi animelarni yuklab olishingiz mumkin
+<b>@{} Shunga ohshash Bot kerak boʻlsa adminga murojat qiling
 
- • Yaratuvchi: @{}
- • Asosiy Kanal: </b><a href='https://t.me/Anidonuz'>@Anidonuz</a>
- • Reklama: </b><a href='https://t.me/Anidonuz_reklama'>@Anidonuz_reklama</a>
+ • Admin: @{}
+ </b>• Asosiy Kanal: </b><a href='https://t.me/Anidonuz'>@Anidonuz</a>
+ </b>• Reklama: <a href='https://t.me/Anidonuz_reklama'>@Anidonuz_reklama</a>
 
 👨‍💻 Savollar Boʻlsa: </b><a href='https://t.me/Anime_chat_uzb'>@Anime_chat_uzb</a>
 """
