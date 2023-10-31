@@ -42,10 +42,7 @@ def start_button(client):
             [
                 InlineKeyboardButton(text="Bot Haqida", callback_data="help"),
             ],
-            [
-                InlineKeyboardButton(text="tytyty", url=client.invitelink),
-                InlineKeyboardButton(text="brtu", url=client.invitelink2),
-            ],
+            
             [InlineKeyboardButton(text="Yopish", callback_data="close")],
         ]
         return buttons
