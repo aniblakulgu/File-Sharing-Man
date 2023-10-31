@@ -96,7 +96,7 @@ def fsub_button(client, message):
             ],
         ]
         try:
-            buttons.append(
+            buttons.insert(
                 [
                     InlineKeyboardButton(
                         text="✅ QОSНILDIМ",
