@@ -36,8 +36,8 @@ class Data:
 <b>@{} Shunga ohshash Bot kerak boʻlsa adminga murojat qiling
 
  • Admin: @{}
- </b>• Asosiy Kanal: </b><a href='https://t.me/Anidonuz'>@Anidonuz</a>
- </b>• Reklama: <a href='https://t.me/Anidonuz_reklama'>@Anidonuz_reklama</a>
+ <b>• Asosiy Kanal: </b><a href='https://t.me/Anidonuz'>@Anidonuz</b>
+ <b>• Reklama: <a href='https://t.me/Anidonuz_reklama'>@Anidonuz_reklama</b>
 
-👨‍💻 Savollar Boʻlsa: </b><a href='https://t.me/Anime_chat_uzb'>@Anime_chat_uzb</a>
+👨‍💻 Savollar Boʻlsa: <b><a href='https://t.me/Anime_chat_uzb'>@Anime_chat_uzb</b>
 """
