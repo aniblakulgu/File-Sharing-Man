@@ -37,7 +37,7 @@ class Data:
 
  • Yaratuvchi: @{}
  • Asosiy Kanal: </b><a href='https://t.me/Anidonuz'>@Anidonuz</a>
- • Reklama: <a https://t.me/nidonu_/a>
+ • Reklama: </b><a href='https://t.me/Anidonuz_reklama'>@Anidonuz_reklama</a>
 
 👨‍💻 Savollar Boʻlsa: </b><a href='https://t.me/Anime_chat_uzb'>@Anime_chat_uzb</a>
 """
