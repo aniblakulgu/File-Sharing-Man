@@ -41,9 +41,8 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(text="Bot Haqida", callback_data="help"),
+                InlineKeyboardButton(text="Yopish", callback_data="close"),
             ],
-            
-            [InlineKeyboardButton(text="Yopish", callback_data="close")],
         ]
         return buttons
 
