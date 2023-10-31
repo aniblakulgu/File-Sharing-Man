@@ -33,9 +33,9 @@ class Data:
     ]
 
     ABOUT = """
- <b>• Admin: @{}
+ <b>• Admin: </b><a href='https://t.me/Sukine'>@Sukine</a>
  <b>• Asosiy Kanal: </b><a href='https://t.me/Anidonuz'>@Anidonuz</b>
  <b>• Reklama: <a href='https://t.me/Anidonuz_reklama'>@Anidonuz_reklama</b>
 
-<b>👨‍💻 Savollar Boʻlsa: <b><a href='https://t.me/Anime_chat_uzb'>@Anime_chat_uzb</b>
+👨‍💻 <b>Savollar Boʻlsa: <b><a href='https://t.me/Anime_chat_uzb'>@Anime_chat_uzb</b>
 """
