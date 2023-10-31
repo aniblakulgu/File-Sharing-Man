@@ -33,13 +33,11 @@ class Data:
     ]
 
     ABOUT = """
-<b>Tentang Bot ini:
-
-@{} adalah Bot Telegram untuk menyimpan Postingan atau File yang dapat Diakses melalui Link Khusus.
+<b>@{} Bot orqali kanaldagi animelarni yuklab olishingiz mumkin
 
  • Yaratuvchi: @{}
- • Asosiy Kanal: <a https://t.me/Anidonuz</a>
- • Reklama: <a https://t.me/Anidonuz_reklama</a>
+ • Asosiy Kanal: </b><a href='https://t.me/Anidonuz'>@Anidonuz</a>
+ • Reklama: <a https://t.me/nidonu_/a>
 
-👨‍💻 Savollar Boʻlsa: https://t.me/Anime_chat_uzb
+👨‍💻 Savollar Boʻlsa: </b><a href='https://t.me/Anime_chat_uzb'>@Anime_chat_uzb</a>
 """
