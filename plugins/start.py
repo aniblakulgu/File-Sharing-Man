@@ -216,7 +216,7 @@ Jami Foydalanuvchilar: <code>{total}</code>
 Muvaffaqiyatli Yuborildi: <code>{successful}</code>
 Muvaffaqiyasiz Yuborildi: <code>{unsuccessful}</code>
 Bloklaganlar: <code>{blocked}</code>
-O'chirilgan Akkauntla: <code>{deleted}</code></b>"""
+Ochirilgan Akkauntlar: <code>{deleted}</code></b>"""
         return await pls_wait.edit(status)
     else:
         msg = await message.reply(
