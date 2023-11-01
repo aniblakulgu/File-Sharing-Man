@@ -11,7 +11,7 @@ class Data:
     2. Tekshirish Tugmasini bosing ✅
     3. Kanaldagi anime post past qismidagi yuklab olish tugmasini bosing
 
-👨‍💻 Yaratuvchi </b><a href='https://t.me/Sukine'>@Sukine</a>
+👨‍💻 <b>Yaratuvchi <a href='https://t.me/Sukine'>@Sukine</b>
 """
 
     close = [
@@ -33,7 +33,7 @@ class Data:
     ]
 
     ABOUT = """
- <b>• Admin: <a href='https://t.me/Sukine'>@Sukine</b>
+  <b>• Admin: <a href='https://t.me/Sukine'>@Sukine</b>
  <b>• Asosiy Kanal: <a href='https://t.me/Anidonuz'>@Anidonuz</b>
  <b>• Reklama: <a href='https://t.me/Anidonuz_reklama'>@Anidonuz_reklama</b>
 
