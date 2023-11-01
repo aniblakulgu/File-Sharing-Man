@@ -33,9 +33,9 @@ class Data:
     ]
 
     ABOUT = """
- <b> • Admin: <a href='https://t.me/Sukine'>@Sukine</b>
- <b>• Asosiy Kanal: <a href='https://t.me/Anidonuz'>@Anidonuz</b>
- <b>• Reklama: <a href='https://t.me/Anidonuz_reklama'>@Anidonuz_reklama</b>
+ <b>• Admin: <a href='https://t.me/Sukine'>@Sukine</b>
+<b>• Asosiy Kanal: <a href='https://t.me/Anidonuz'>@Anidonuz</b>
+<b>• Reklama: <a href='https://t.me/Anidonuz_reklama'>@Anidonuz_reklama</b>
 
 👨‍💻 <b>Savollar Boʻlsa: <a href='https://t.me/Anime_chat_uzb'>@Anime_chat_uzb</b>
 """
