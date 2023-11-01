@@ -211,16 +211,16 @@ async def send_text(client: Bot, message: Message):
                 except BaseException:
                     unsuccessful += 1
                 total += 1
-        status = f"""<b><u>Berhasil Broadcast</u>
-Jumlah Pengguna: <code>{total}</code>
-Berhasil: <code>{successful}</code>
-Gagal: <code>{unsuccessful}</code>
-Pengguna diblokir: <code>{blocked}</code>
-Akun Terhapus: <code>{deleted}</code></b>"""
+        status = f"""<b><u>Habar Yuborish tafsiloti</u>
+Jami Foydalanuvchilar: <code>{total}</code>
+Muvaffaqiyatli Yuborildi: <code>{successful}</code>
+Muvaffaqiyasiz Yuborildi: <code>{unsuccessful}</code>
+Bloklaganlar: <code>{blocked}</code>
+Ochirilgan Akkauntla4: <code>{deleted}</code></b>"""
         return await pls_wait.edit(status)
     else:
         msg = await message.reply(
-            "<code>Gunakan Perintah ini Harus Sambil Reply ke pesan telegram yang ingin di Broadcast.</code>"
+            "<code>Yubormoqchi boʻlgan habaringizni yozing va yozgan habaringizni belgilab /broadcast tugmasini yuboring shunda foydalanuvchilarga habar yuboriladi.</code>"
         )
         await asyncio.sleep(8)
         await msg.delete()
