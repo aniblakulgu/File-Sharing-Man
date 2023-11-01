@@ -97,4 +97,104 @@ async def start_command(client: Bot, message: Message):
             return
         await temp_msg.delete()
 
-        for msg in messages:￼Enter
+        for msg in messages:
+            
+            if bool(CUSTOM_CAPTION) & bool(msg.document):
+                caption = CUSTOM_CAPTION.format(
+                    previouscaption=msg.caption.html if msg.caption else "",
+                    filename=msg.document.file_name,
+                )
+
+            else:
+                caption = msg.caption.html if msg.caption else ""
+
+            reply_markup = msg.reply_markup if DISABLE_CHANNEL_BUTTON else None
+            try:
+                await msg.copy(
+                    chat_id=message.from_user.id,
+                    caption=caption,
+                    parse_mode=ParseMode.HTML,
+                    protect_content=PROTECT_CONTENT,
+                    reply_markup=reply_markup,
+                )
+                await asyncio.sleep(0.5)
+            except FloodWait as e:
+                await asyncio.sleep(e.x)
+                await msg.copy(
+                    chat_id=message.from_user.id,
+                    caption=caption,
+                    parse_mode=ParseMode.HTML,
+                    protect_content=PROTECT_CONTENT,
+                    reply_markup=reply_markup,
+                )
+            except BaseException:
+                pass
+    else:
+        out = start_button(client)
+        await message.reply_text(
+            text=START_MSG.format(
+                first=message.from_user.first_name,
+                last=message.from_user.last_name,
+                username=f"@{message.from_user.username}"
+                if message.from_user.username
+                else None,
+                mention=message.from_user.mention,
+                id=message.from_user.id,
+            ),
+            reply_markup=InlineKeyboardMarkup(out),
+            disable_web_page_preview=True,
+            quote=True,
+        )
+
+
+    return
+
+
+@Bot.on_message(filters.command("start") & filters.private)
+async def not_joined(client: Bot, message: Message):
+    buttons = fsub_button(client, message)
+    await message.reply(
+        text=FORCE_MSG.format(
+            first=message.from_user.first_name,
+            last=message.from_user.last_name,
+            username=f"@{message.from_user.username}"
+            if message.from_user.username
+            else None,
+            mention=message.from_user.mention,
+            id=message.from_user.id,
+        ),
+        reply_markup=InlineKeyboardMarkup(buttons),
+        quote=True,
+        disable_web_page_preview=True,
+    )
+
+
+@Bot.on_message(filters.command(["users", "stats"]) & filters.user(ADMINS))
+async def get_users(client: Bot, message: Message):
+    msg = await client.send_message(
+        chat_id=message.chat.id, text="<code>Processing ...</code>"
+    )
+    users = await full_userbase()
+    await msg.edit(f"{len(users)} <b>Pengguna menggunakan bot ini</b>")
+
+
+@Bot.on_message(filters.command("broadcast") & filters.user(ADMINS))
+async def send_text(client: Bot, message: Message):
+    if message.reply_to_message:
+        query = await query_msg()
+        broadcast_msg = message.reply_to_message
+        total = 0
+        successful = 0
+        blocked = 0
+        deleted = 0
+        unsuccessful = 0
+
+        pls_wait = await message.reply(
+            "<code>Broadcasting Message Tunggu Sebentar...</code>"
+        )
+        for row in query:
+            chat_id = int(row[0])
+            if chat_id not in ADMINS:
+                try:
+                    await broadcast_msg.copy(chat_id, protect_content=PROTECT_CONTENT)
+                    successful += 1
