@@ -8,7 +8,7 @@ from time import time
 
 from bot import Bot
 from config import (
-    ADMINS,
+    A
     CUSTOM_CAPTION,
     DISABLE_CHANNEL_BUTTON,
     FORCE_MSG,
@@ -216,7 +216,7 @@ Jami Foydalanuvchilar: <code>{total}</code>
 Muvaffaqiyatli Yuborildi: <code>{successful}</code>
 Muvaffaqiyasiz Yuborildi: <code>{unsuccessful}</code>
 Bloklaganlar: <code>{blocked}</code>
-Ochirilgan Akkauntla4: <code>{deleted}</code></b>"""
+O'chirilgan Akkauntla: <code>{deleted}</code></b>"""
         return await pls_wait.edit(status)
     else:
         msg = await message.reply(
