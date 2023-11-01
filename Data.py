@@ -33,7 +33,7 @@ class Data:
     ]
 
     ABOUT = """
-  <b>• Admin: <a href='https://t.me/Sukine'>@Sukine</b>
+ <b> • Admin: <a href='https://t.me/Sukine'>@Sukine</b>
  <b>• Asosiy Kanal: <a href='https://t.me/Anidonuz'>@Anidonuz</b>
  <b>• Reklama: <a href='https://t.me/Anidonuz_reklama'>@Anidonuz_reklama</b>
 
