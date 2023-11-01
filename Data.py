@@ -6,10 +6,10 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
-<b> ❏ Botni ishlatish qo'llanmasi:
+<b>❏ Botni ishlatish qo'llanmasi:
     1. Kanallarga obuna boling!
     2. Tekshirish Tugmasini bosing ✅
-    3. Kanaldagi anime post past qismidagi yuklab olish tugmasini bosing
+    3. Kanaldagi anime post past qismidagi yuklab olish tugmasini bosing</b>
 
 👨‍💻 <b>Yaratuvchi <a href='https://t.me/Sukine'>@Sukine</b>
 """
