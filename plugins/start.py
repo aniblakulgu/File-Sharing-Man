@@ -175,7 +175,7 @@ async def get_users(client: Bot, message: Message):
         chat_id=message.chat.id, text="<code>Yuklanmoqda ...</code>"
     )
     users = await full_userbase()
-    await msg.edit(f"{len(users)} <b>Pengguna menggunakan bot ini</b>")
+    await msg.edit(f"{len(users)} <b>Foydalanuvchilar soni</b>")
 
 
 @Bot.on_message(filters.command("broadcast") & filters.user(ADMINS))
