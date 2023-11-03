@@ -11,7 +11,7 @@ class Data:
     2. Tekshirish Tugmasini bosing ✅
     3. Kanaldagi anime post past qismidagi yuklab olish tugmasini bosing</b>
 
-👨‍💻 <b>Yaratuvchi <a href='https://t.me/Sukine'>@Sukine</b>
+👨‍💻 <b>Admin <a href='https://t.me/KING_MODDER_UZ'>@KING_MODDER_UZ</b>
 """
 
     close = [
@@ -33,9 +33,8 @@ class Data:
     ]
 
     ABOUT = """
- <b>• Admin: <a href='https://t.me/Sukine'>@Sukine</b>
-<b>• Asosiy Kanal: <a href='https://t.me/Anidonuz'>@Anidonuz</b>
-<b>• Reklama: <a href='https://t.me/Anidonuz_reklama'>@Anidonuz_reklama</b>
+ <b>• Admin: <a href='https://t.me/KING_MODDER_UZ'>@KING_MODDER_UZ</b>
+<b>• Kanal: <a href='https://t.me/UZGOANIME'>@UZGOANIME</b>
 
-👨‍💻 <b>Savollar Boʻlsa: <a href='https://t.me/Anime_chat_uzb'>@Anime_chat_uzb</b>
+👨‍💻 <b>Savollar Boʻlsa: <a href='https://t.me/MAYKI_SOLO'>@MAYKI_SOLO</b>
 """
