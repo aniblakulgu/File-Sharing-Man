@@ -6,12 +6,10 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
-<b>❏ Botni ishlatish qo'llanmasi:
-    1. Kanallarga obuna boling!
-    2. Tekshirish Tugmasini bosing ✅
-    3. Kanaldagi anime post past qismidagi yuklab olish tugmasini bosing</b>
+<b>• Admin: <a href='https://t.me/KING_MODDER_UZ'>@KING_MODDER_UZ</b>
+<b>• Kanal: <a href='https://t.me/UZGOANIME'>@UZGOANIME</b>
 
-👨‍💻 <b>Admin <a href='https://t.me/KING_MODDER_UZ'>@KING_MODDER_UZ</b>
+👨‍💻 <b>Savollar Boʻlsa: <a href='https://t.me/MAYKI_SOLO'>@MAYKI_SOLO</b>
 """
 
     close = [
@@ -33,8 +31,10 @@ class Data:
     ]
 
     ABOUT = """
- <b>• Admin: <a href='https://t.me/KING_MODDER_UZ'>@KING_MODDER_UZ</b>
-<b>• Kanal: <a href='https://t.me/UZGOANIME'>@UZGOANIME</b>
+ <b>❏ Botni ishlatish qo'llanmasi:
+    1. Kanallarga obuna boling!
+    2. Tekshirish Tugmasini bosing ✅
+    3. Kanaldagi anime post past qismidagi yuklab olish tugmasini bosing</b>
 
-👨‍💻 <b>Savollar Boʻlsa: <a href='https://t.me/MAYKI_SOLO'>@MAYKI_SOLO</b>
+👨‍💻 <b>Admin <a href='https://t.me/KING_MODDER_UZ'>@KING_MODDER_UZ</b>
 """
