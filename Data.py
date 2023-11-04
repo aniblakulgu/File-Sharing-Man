@@ -18,14 +18,14 @@ class Data:
 
     mbuttons = [
         [
-            InlineKeyboardButton("📝 Yordam", callback_data="help"),
+            InlineKeyboardButton("📝 Bot Haqida", callback_data="help"),
             InlineKeyboardButton("🔒 Yopish", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("🧑‍💻 Yaratuvchi", callback_data="about"),
+            InlineKeyboardButton("📝 Yordam", callback_data="about"),
             InlineKeyboardButton("🔒 Yopish", callback_data="close")
         ],
     ]
