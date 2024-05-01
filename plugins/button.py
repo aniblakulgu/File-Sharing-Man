@@ -90,7 +90,7 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="Animelar - Uzbek Tilida", url=client.invitelink),
             ],
             [   
-                InlineKeyboardButton(text="Sehr va mushaklar", url=client.invitelink2)
+                InlineKeyboardButton(text="Unlucky - Anime Quotes", url=client.invitelink2)
             ]
         ]
         try:
