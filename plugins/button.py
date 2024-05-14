@@ -91,7 +91,7 @@ def fsub_button(client, message):
             ],
             [   
                 InlineKeyboardButton(text="Animelar - Uzbek Tilida", url=client.invitelink2)
-            ]
+            ],
             [
                 InlineKeyboardButton('Iblis', url='https://t.me/iblislar_qotilii')
             ]
