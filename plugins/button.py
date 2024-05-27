@@ -87,7 +87,7 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Naruto_Uz", url=client.invitelink),
+                InlineKeyboardButton(text="Anime | Filmlar Uzb", url=client.invitelink),
             ],
             [   
                 InlineKeyboardButton(text="Otaku | Anime Yangiliklari", url=client.invitelink2)
