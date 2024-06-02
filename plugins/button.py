@@ -87,13 +87,13 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="AniCoin - Yuqori Narxlar", url=client.invitelink),
+                InlineKeyboardButton(text="Animelar - Uzbek Tilida", url=client.invitelink),
             ],
             [   
                 InlineKeyboardButton(text="Otaku | Anime Yangiliklari", url=client.invitelink2)
             ],
             [
-                InlineKeyboardButton('Animelar - Uzbek Tilida', url='https://t.me/Anime_uzbekcha')
+                InlineKeyboardButton('AniCoin - Yuqori Narxlar', url='https://t.me/AniCoinUz')
             ]
         ]
         try:
