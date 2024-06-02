@@ -87,13 +87,13 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Animelar - Uzbek Tilida", url=client.invitelink),
+                InlineKeyboardButton(text="AniCoin - Yuqori Narxlar", url=client.invitelink),
             ],
             [   
                 InlineKeyboardButton(text="Otaku | Anime Yangiliklari", url=client.invitelink2)
             ],
             [
-                InlineKeyboardButton('Ongoing Animelar | Bahor', url='https://t.me/Ongoing_animelar')
+                InlineKeyboardButton('Animelar - Uzbek Tilida', url='https://t.me/Anime_uzbekcha')
             ]
         ]
         try:
@@ -104,7 +104,7 @@ def fsub_button(client, message):
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
-            )
+            )#
         except IndexError:
             pass
         return buttons
