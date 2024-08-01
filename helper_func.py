@@ -14,7 +14,8 @@ from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 from config import ADMINS, FORCE_SUB_CHANNEL, FORCE_SUB_GROUP, FORCE_SUB_CHANNEL_2
 
 
-async def subschannel(client, user_id):
+async def subschannel(filter, client, update):
+    user_id = update.from_user.id
     if not FORCE_SUB_CHANNEL or user_id in ADMINS:
         return True
     
@@ -28,7 +29,8 @@ async def subschannel(client, user_id):
     return member.status in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR, ChatMemberStatus.MEMBER]
 
 
-async def subsgroup(client, user_id):
+async def subsgroup(filter, client, update):
+    user_id = update.from_user.id
     if not FORCE_SUB_GROUP or user_id in ADMINS:
         return True
     
@@ -40,7 +42,8 @@ async def subsgroup(client, user_id):
     return member.status in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR, ChatMemberStatus.MEMBER]
 
 
-async def subs_second_channel(client, user_id):
+async def subs_second_channel(filter,client, update):
+    user_id = update.from_user.id
     if not FORCE_SUB_CHANNEL_2 or user_id in ADMINS:
         return True
     
@@ -123,6 +126,7 @@ async def get_message_id(client, message):
             return msg_id
 
 
+subsch2 = filters.create(subs_second_channel)
 subsgc = filters.create(subsgroup)
 subsch = filters.create(subschannel)
 subsall = filters.create(is_subscribed)
