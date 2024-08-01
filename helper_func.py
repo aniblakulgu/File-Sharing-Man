@@ -64,7 +64,7 @@ async def is_subscribed(filter, client, update):
     
     user_id = update.from_user.id
 
-    if subschannel(client, user_id) and subsgroup(client, user_id) and subs_second_channel(client, user_id):
+    if subschannel(filter,client, update) and subsgroup(filter, client, update) and subs_second_channel(filter, client, update):
         return True
     
     return False
