@@ -15,20 +15,20 @@ class Data:
 """
 
     close = [
-        [InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")]
+        [InlineKeyboardButton("🔒 Yopish", callback_data="close")]
     ]
 
     mbuttons = [
         [
-            InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
-            InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
+            InlineKeyboardButton("📝 Yordam", callback_data="help"),
+            InlineKeyboardButton("🔒 Yopish", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ", callback_data="about"),
-            InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
+            InlineKeyboardButton("", callback_data="about"),
+            InlineKeyboardButton("🔒 Yopish", callback_data="close")
         ],
     ]
 
