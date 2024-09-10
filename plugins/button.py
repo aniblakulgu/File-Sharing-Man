@@ -29,10 +29,10 @@ def start_button(client):
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="brbalo", url=client.invitelink),
+                InlineKeyboardButton(text="Kanal 1", url=client.invitelink),
             ],
             [
-                InlineKeyboardButton(text="Bit Haqida", callback_data="help"),
+                InlineKeyboardButton(text="Bot Haqida", callback_data="help"),
                 InlineKeyboardButton(text="Yopish", callback_data="close"),
             ],
         ]
@@ -40,7 +40,7 @@ def start_button(client):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Bot Haqida", callback_data="help"),
+                InlineKeyboardButton(text="📝 Bot Haqida", callback_data="help"),
             ],
             [
                 InlineKeyboardButton(text="tytyty", url=client.invitelink),
