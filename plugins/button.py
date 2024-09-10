@@ -10,8 +10,8 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Bot Haqida", callback_data="help"),
-                InlineKeyboardButton(text="Yopish", callback_data="close"),
+                InlineKeyboardButton(text="📝 Bot Haqida", callback_data="help"),
+                InlineKeyboardButton(text="🔒 Yopish", callback_data="close"),
             ],
         ]
         return buttons
