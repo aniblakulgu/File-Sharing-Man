@@ -100,7 +100,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="✅ QОSНILDIМ",
+                        text="✅ Tekshirish",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
