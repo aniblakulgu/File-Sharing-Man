@@ -27,7 +27,7 @@ class Data:
 
     buttons = [
         [
-            InlineKeyboardButton("", callback_data="about"),
+            InlineKeyboardButton("🧑‍💻 Yaratuvchi", callback_data="about"),
             InlineKeyboardButton("🔒 Yopish", callback_data="close")
         ],
     ]
