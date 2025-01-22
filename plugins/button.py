@@ -93,14 +93,14 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="Animelar - Uzbek Tilida", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="AniConBo - Animelar Uzb", url=client.invitelink3),
+                InlineKeyboardButton(text="Froger - Anime Editlar", url=client.invitelink3),
             ],
         ]
         try:
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="✅ Tekshirish",
+                     p   text="✅ Tekshirish",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
