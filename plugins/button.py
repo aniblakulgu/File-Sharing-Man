@@ -1,4 +1,4 @@
-# Credits: @mrismanaziz
+a1# Credits: @mrismanaziz
 # FROM File-Sharing-Man <https://github.com/mrismanaziz/File-Sharing-Man/>
 # t.me/SharingUserbot & t.me/Lunatic0de
 
@@ -93,7 +93,7 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="Ongoing Animelar | Yoz", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="AVADO.yyou - Store Uz", url=client.invitelink3),
+                InlineKeyboardButton(text="Mangalar - Uzbek Tilida", url=client.invitelink3),
             ],
         ]
         try:
